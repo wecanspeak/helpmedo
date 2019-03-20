@@ -56,7 +56,6 @@ $ pytest
 
 # ToDo
 
-* CI: travis ci or other ci integration 
 * refactor utils folder for versatile types
 * todo jobs
   * demo job for creating default job 
