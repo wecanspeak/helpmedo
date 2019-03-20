@@ -1,0 +1,19 @@
+job_description: >
+    Remote control power supply IP9258 for connected devices.
+
+required_python_pkg: 
+    - requests
+
+action:
+    - name: "power_on"
+      with: ports
+      purpose: "Turn on power for power ports."
+    - name: "power_off"
+      with: ports
+      purpose: "Turn off power for power ports."
+
+power_control:
+    device: IP9528
+    ip: 192.168.2.100
+    account: admin
+    password: "12345678"

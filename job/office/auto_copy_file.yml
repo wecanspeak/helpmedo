@@ -1,0 +1,11 @@
+job_description: >
+    Automatically copy changed file from one directory to another directory.
+
+required_python_pkg: 
+    - watchdog
+
+observe_dir: "\\your\\oberseved\\dir"
+
+destination_dir: "\\your\\destination\\dir"
+
+action:

@@ -1,0 +1,13 @@
+job_description: >
+    Demo file change notification.
+
+required_python_pkg: 
+    - watchdog
+
+observe_dir: "\\your\\observe\\dir"
+
+action:
+    - name: "update_notify"
+      with: file
+      purpose: "Notify when targeted file updated."
+

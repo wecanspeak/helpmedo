@@ -1,0 +1,18 @@
+job_description: >
+    Demo slack python apis.
+
+required_python_pkg: 
+    - slackclient
+
+# get your slack api token at https://api.slack.com/custom-integrations/legacy-tokens
+# or set environment variable SLACK_API_TOKEN to overwrite
+slack_api_token:
+
+# get your slack user id at "More" in user profile and account
+# or set environment variable SLACK_USER_ID to overwrite
+slack_user_id:
+
+action:
+    - name: "send_msg"
+      with: msg
+      purpose: "Send message to slack channel."

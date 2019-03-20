@@ -1,0 +1,17 @@
+job_description: >
+    This is a job.
+    For demo purpose, too.
+
+required_python_pkg: 
+    - requests
+
+action:
+    - name: "ls"
+      with: ""
+      purpose: "List files in working directory."
+    - name: "echo"
+      with: msg
+      purpose: "Echo you input."
+    - name: "web_request"
+      with: url
+      purpose: "Test web request"
