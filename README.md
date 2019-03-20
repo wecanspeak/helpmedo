@@ -26,9 +26,7 @@ $ python helpmedo.py [-hl] project job [action [sth]]
 
 # Prerequisites
 
-* [zope interface](https://pypi.org/project/zope.interface/)
-* [PyYAML](https://pypi.org/project/PyYAML/)
-* [python colorama](https://pypi.org/project/colorama/)
+Please refer to [requirements.txt](requirements.txt).
 
 # How to add a new job
 
