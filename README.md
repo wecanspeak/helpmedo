@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/wecanspeak/helpmedo.svg?branch=master)](https://travis-ci.org/wecanspeak/helpmedo)
+
 # helpmedo
 
 A secretary you train.
